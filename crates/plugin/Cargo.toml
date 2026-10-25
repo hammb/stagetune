@@ -1,0 +1,16 @@
+[package]
+name = "stagetune"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "StageTune live pitch correction plugin (CLAP; AU and VST3 via clap-wrapper)"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+stagetune-core = { path = "../core" }
+# nih-plug builds the CLAP; clap-wrapper builds the AU and VST3 from it
+# (see wrappers/).
+nih_plug = { git = "https://github.com/robbert-vdh/nih-plug.git", default-features = false }

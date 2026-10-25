@@ -1,0 +1,17 @@
+StageTune
+Copyright 2026 Benjamin Hamm
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Built plugin bundles also contain code from these third-party projects,
+under their own permissive licenses:
+
+- nih-plug (ISC), https://github.com/robbert-vdh/nih-plug
+- clap-wrapper (MIT), https://github.com/free-audio/clap-wrapper
+- CLAP SDK (MIT), https://github.com/free-audio/clap
+- VST 3 SDK 3.8 (MIT), Steinberg Media Technologies GmbH,
+  https://github.com/steinbergmedia/vst3sdk
+- AudioUnitSDK (Apache-2.0), Apple Inc., https://github.com/apple/AudioUnitSDK
+- Rust crates (MIT, Apache-2.0, ISC and similar), listed in Cargo.lock
+
+VST is a registered trademark of Steinberg Media Technologies GmbH.

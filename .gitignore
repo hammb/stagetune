@@ -1,0 +1,8 @@
+/target
+/wrappers/build
+/wrappers/clap-wrapper
+*.wav
+*.mp3
+*.csv
+.DS_Store
+/renders

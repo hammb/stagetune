@@ -1,0 +1,10 @@
+[package]
+name = "stagetune-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "Real-time vocal pitch correction DSP (detector, controller, shifter)"
+
+[dependencies]
+realfft = "3"

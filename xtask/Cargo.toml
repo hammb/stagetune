@@ -1,0 +1,9 @@
+[package]
+name = "xtask"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dependencies]
+nih_plug_xtask = { git = "https://github.com/robbert-vdh/nih-plug.git" }
